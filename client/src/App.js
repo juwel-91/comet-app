@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import io from 'socket.io-client';
 import Peer from 'simple-peer';
 
-const socket = io('http://localhost:3001');
+const socket = io("https://comet-app.onrender.com");
 
 function App() {
   const [myID, setMyID] = useState('');
